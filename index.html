@@ -342,7 +342,7 @@ scene.add(dust);
 function resize() {
   renderer.setSize(innerWidth, innerHeight, false);
   camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix();
-  group.position.x = innerWidth > 900 ? 6 : 0;
+  group.position.x = innerWidth > 900 ? 3.5 : 0;
 }
 addEventListener('resize', resize); resize();
 
